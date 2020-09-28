@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="NarucivanjeLekova.jnlp">
+  <information>
+    <title>NarucivanjeLekova</title>
+    <vendor>Vladimir</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="NarucivanjeLekova.jar" size="39041" download="eager" />
+    <jar href="lib/junit-4.3.jar" size="249154" download="eager" />
+    <jar href="lib/mysql-connector-java-5.1.46-bin.jar" size="1004840" download="eager" />
+    <jar href="lib/mysql-connector-java-5.1.46.jar" size="1004838" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="NarucivanjeLekova" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="narucivanjelekova.NarucivanjeLekova"  name="NarucivanjeLekova" />
+  <update check="always"/>
+</jnlp>
